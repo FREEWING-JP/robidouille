@@ -1,3 +1,16 @@
+### # master merged
+https://github.com/FREEWING-JP/robidouille/tree/master  
+Add rotate-option and flip-option.  
+###### #18 opened on 28 Mar 2016 by IsaoNakamura  
+https://github.com/robidouille/robidouille/pulls/IsaoNakamura  
+
+### # feature/support_OpenCV_v3
+https://github.com/FREEWING-JP/robidouille/tree/feature/support_OpenCV_v3  
+Changed some headers in raspicam_cv for OpenCV v3.0.0  
+###### #15 opened on 8 Aug 2015 by cemysf  
+https://github.com/robidouille/robidouille/pull/15  
+
+***
 ###Prerequisites###
 First make sure you have cmake and git installed:
 
@@ -21,7 +34,8 @@ You need the raspberry pi userland libraries:
 
     mkdir -p ~/git
     cd ~/git
-    git clone https://github.com/robidouille/robidouille.git
+    # git clone https://github.com/robidouille/robidouille.git
+    git clone https://github.com/FREEWING-JP/robidouille.git
     cd robidouille/raspicam_cv
     mkdir objs
     make
